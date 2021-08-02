@@ -1,30 +1,30 @@
-@media only screen and (max-width: 120rem) {
-  .header-content {
+/* TABLET  */
+
+@media screen and (max-width: 56.25rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .header-content .header-content__left {
     width: 100%;
   }
-  .section-product,
-  .section-brand,
-  .footer-bottom,
-  .footer-top,
-  .section-overview,
-  .header-top,
-  .header-content,
-  .row.section-aboutus {
-    width: 96% !important;
+
+  .header-content .header-content__left h1 {
+    font-size: 5rem;
+  }
+
+  .tabcontent .tabcontent-card {
+    width: calc(100% / 2);
   }
   #sidebarMenu {
     display: none;
   }
-}
-
-/* TABLET  */
-
-@media screen and (max-width: 56.25rem) {
   .header-top__logo {
     margin-left: 4rem;
   }
-  .row.section-brand {
-    grid-template-columns: repeat(3, 1fr);
+
+  .row.section-brand .section-brand__img {
+    width: calc(100% / 2);
   }
   .header-top__main {
     display: none !important;
@@ -40,19 +40,20 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .row.section-overview {
+  /* .row.section-overview {
     grid-template-columns: repeat(2, 1fr);
+  } */
+  .row .section-overview .section-overview__item {
+    width: calc(100% / 2);
   }
 
-  .row.section-overview .section-overview__item:nth-child(3) {
+  .row .section-overview .section-overview__item:nth-child(3) {
     order: 4;
   }
-  .row.section-overview .section-overview__item:nth-child(4) {
+  .row .section-overview .section-overview__item:nth-child(4) {
     order: 3;
   }
-  .row.section-overview .section-overview__item:nth-child(2n) p {
-    padding: 0 10px;
-  }
+
   #js--menu {
     /* display: block!important; */
     flex-direction: column;
@@ -78,28 +79,42 @@
 /* MOBILE  */
 
 @media screen and (max-width: 37.5rem) {
+  .row .section-overview .section-overview__item .overview-icon {
+    width: 25px;
+    height: 35px;
+  }
+
+  .row .section-overview .section-overview__item  p {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.8em;
+  }
   section.row.section-brand {
     grid-template-columns: repeat(2, 1fr);
   }
   .section-product__tab .section-product__tab--link {
-    font-size: 1rem !important;
+    font-size: 1rem
   }
 
   .section-aboutus h1 {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem
   }
   .slideshow-container .mySlides p,
   .section-overview .section-overview__item:nth-child(2n) h2 {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem
   }
   .footer-bottom__columns h2 {
-    font-size: 1.2rem !important;
+    font-size: 1.2rem
   }
+
   .footer-bottom__columns .footer-bottom__column--link a,
   .footer-copyright h2,
   .footer-bottom__columns .footer-bottom__column--link i,
   .section-overview .section-overview__item:nth-child(2n) p {
-    font-size: 1.1rem !important;
+    font-size: 1rem;
   }
 
   .tabcontent .tabcontent-card h3,

@@ -18,6 +18,16 @@
       crossorigin="anonymous"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
     <!-- add js file -->
   </head>
   <body>
@@ -46,7 +56,6 @@
       </div>
       <nav>
         <div class="row header-top">
-
           <h1 class="header-top__logo">
             <a href="index.html"
               ><img src="resources/images/Logo.PNG" alt=""
@@ -67,61 +76,68 @@
             <li class="header-top__right--icon">
               <i class="fas fa-shopping-basket"></i><span>|</span>
             </li>
-            <li class="header-top__right--icon"><i class="fad fa-user"></i></li>
+            <li class="header-top__right--icon"><i class="fas fa-user"></i></li>
           </ul>
         </div>
       </nav>
       <div class="row header-content">
-        <h1>Dumbbells Shop</h1>
-        <h3>Best body fitness</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        <p>
-          Illo doloribus autem Veritatis dolorum hic laborum provident velit,
-        </p>
-        <p>veritatis corporis. quo id ipsa?</p>
-        <a href="" class="btn btn-ghost">Shop Now</a>
+        <div class="header-content__left">
+          <h1>Dumbbells Shop</h1>
+          <h3>Best body fitness</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit Illo
+            doloribus autem Veritatis dolorum hic laborum provident velit,
+            doloribus autem Veritatis dolorum hic laborum provident velit,
+            doloribus autem Veritatis dolorum hic laborum provident velit,
+            doloribus autem Veritatis dolorum hic laborum provident velit,
+          </p>
+          <a href="" class="btn btn-ghost">Shop Now</a>
+        </div>
+        <div class="header-content__right"></div>
       </div>
     </header>
 
-    <section class="row section-overview">
-      <div class="section-overview__item">
-        <img src="resources/images/aht-overview1.jpg" alt="" />
-      </div>
-      <div class="section-overview__item">
-        <div class="overview-icon">
-          <img src="resources/images/aht-overview-icon-1.png" alt="" />
+    <section class="row">
+      <div class="section-overview">
+        <div class="section-overview__item">
+          <img src="resources/images/aht-overview1.jpg" alt="" />
         </div>
-        <h2>Strength</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-          eligendi voluptatibus cumque.
-        </p>
-      </div>
-      <div class="section-overview__item">
-        <img src="resources/images/aht-overview2.jpg" alt="" />
-      </div>
-      <div class="section-overview__item">
-        <div class="overview-icon">
-          <img src="resources/images/aht-overview-icon-2.png" alt="" />
+        <div class="section-overview__item">
+          <div class="overview-icon">
+            <img src="resources/images/aht-overview-icon-1.png" alt="" />
+          </div>
+          <h2>Strength</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+            eligendi voluptatibus cumque.
+          </p>
         </div>
-        <h2>Dumbbells</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos incidunt
-          ad quibusdam?
-        </p>
-      </div>
-      <div class="section-overview__item">
-        <img src="resources/images/aht-overview3.jpg" alt="" />
-      </div>
-      <div class="section-overview__item">
-        <div class="overview-icon">
-          <img src="resources/images/aht-overview-icon-4.png" alt="" />
+        <div class="section-overview__item">
+          <img src="resources/images/aht-overview2.jpg" alt="" />
         </div>
-        <h2>Power Rack & Cages</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-          doloremque esse officia.
-        </p>
+        <div class="section-overview__item">
+          <div class="overview-icon">
+            <img src="resources/images/aht-overview-icon-2.png" alt="" />
+          </div>
+          <h2>Dumbbells</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+            incidunt ad quibusdam?
+          </p>
+        </div>
+        <div class="section-overview__item">
+          <img src="resources/images/aht-overview3.jpg" alt="" />
+        </div>
+        <div class="section-overview__item">
+          <div class="overview-icon">
+            <img src="resources/images/aht-overview-icon-4.png" alt="" />
+          </div>
+          <h2>Power Rack & Cages</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+            doloremque esse officia.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -507,4 +523,13 @@
     </footer>
   </body>
   <script src="resources/js/main.js"></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
 </html>

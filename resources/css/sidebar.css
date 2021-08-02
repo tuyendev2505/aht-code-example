@@ -51,11 +51,16 @@ input[type="checkbox"] {
   z-index: 99;
   height: 100%;
   width: 100%;
-  top: 22px;
+  top: 50px;
   left: 15px;
   height: 22px;
   width: 22px;
   display: none;
+  transform: translateY(-18px);
+  -webkit-transform: translateY(-18px);
+  -moz-transform: translateY(-18px);
+  -ms-transform: translateY(-18px);
+  -o-transform: translateY(-18px);
 }
 .spinner {
   transition: all 0.3s;
