@@ -392,6 +392,7 @@ header nav {
   padding: 10px 20px;
   font-weight: 700;
   line-height: 24px;
+  font-family: inherit;
 }
 
 .section-product__tab .section-product__tab--link.active {
