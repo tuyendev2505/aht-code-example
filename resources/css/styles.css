@@ -137,9 +137,9 @@ header {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(../images/aht-bg-1.jpeg);
+    url(../images/aht-bg.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/aht-bg-1.jpeg);
+    url(../images/aht-bg.png);
   background-size: cover;
   background-position: center;
   height: 950px;
