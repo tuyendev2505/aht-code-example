@@ -141,7 +141,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/aht-bg-1.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom right 20%;
   height: 950px;
   background-attachment: fixed;
   position: relative;

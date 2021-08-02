@@ -119,7 +119,7 @@
 
   .tabcontent .tabcontent-card h3,
   .tabcontent .tabcontent-card h1 {
-    margin: 0 10px !important;
+    margin: 0 10px
   }
   .tabcontent-card .tabcontent-card__action .tabcontent-card__action--icon i {
     font-size: 10px !important;
