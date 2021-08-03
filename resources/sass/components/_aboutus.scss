@@ -1,0 +1,150 @@
+/* ----------------------------------------------- */
+/* SECTION SLIDER */
+/* ----------------------------------------------- */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+  & .mySlides {
+    display: none;
+    & p {
+      font-size: 1.8rem;
+      color: #777;
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    & h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #000;
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+    & .slideshow-container .mySlides p:first-child {
+      text-transform: uppercase;
+    }
+
+    & .slide-person {
+      width: 80px;
+      height: 80px;
+      margin: 45px auto 30px;
+    }
+    & img {
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #dd2f31;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* SECTION ABOUT US*/
+
+.section-aboutus {
+  margin-top: 120px;
+
+  & h1 {
+    color: #000;
+    font-weight: bold;
+    font-size: 3.6rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+  }
+}
+
+#about-us .slick-dots li button:before {
+  font-size: 15px
+}
+
+#about-us .slick-dots li:hover button:before {
+  color: #dd2f31
+}
+
+#about-us .slick-dots li.slick-active button:before {
+  color: #dd2f31
+}

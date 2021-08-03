@@ -1,0 +1,31 @@
+/*
+1.Setting basic
+2.Heading setting
+3.Link setting
+4.List setting
+5.Button reuse
+6.Component header
+    - header top logo
+    - header main ( navigation )
+    - header right 
+    - header content (hero text)
+
+7.Section overview
+8.Section production
+9.Section slider
+10.Section branding
+11.Component footer
+    - footer top
+    - footer bottom
+    - footer copy right
+*/
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+@import './base';
+@import './layout';
+@import './component';
+
+@import './responsive/responsive'

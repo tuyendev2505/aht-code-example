@@ -1,0 +1,145 @@
+/* TABLET  */
+
+@media screen and (max-width: 56.25rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-product,
+  .row.footer-bottom,
+  .row.footer-top,
+  .header-content,
+  .section-brand,
+  .row.section-aboutus {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header-content .header-content__left {
+    width: 100%;
+    & h1 {
+      font-size: 5rem;
+    }
+  }
+
+  .section-product {
+    & .tabcontent-card {
+      &__action {
+        display: block;
+      }
+    }
+  }
+
+  .tabcontent .tabcontent-card {
+    width: calc(100% / 2);
+  }
+  #sidebarMenu {
+    display: none;
+  }
+  .header-top__logo {
+    margin-left: 4rem;
+  }
+
+  .row.section-brand .section-brand__img {
+    width: calc(100% / 2);
+  }
+  .header-top #js--menu {
+    display: none;
+  }
+  .sidebarIconToggle {
+    display: block
+  }
+  #sidebarMenu {
+    display: block;
+  }
+  .row.footer-bottom,
+  #tab1.tabcontent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-overview {
+    &__item {
+      width: calc(100% / 2);
+
+      &:nth-child(3) {
+        order: 4;
+      }
+
+      &:nth-child(4) {
+        order: 3;
+      }
+    }
+  }
+}
+
+/* MOBILE  */
+
+@media screen and (max-width: 37.5rem) {
+  #section-overview__mobile .section-overview {
+    &__item {
+      width: 100%;
+      & h2 {
+        margin: 2rem 0;
+        font-size: 3rem;
+      }
+
+      & p {
+        font-size: 2rem;
+      }
+
+      &:nth-child(2n) {
+        padding: 10px;
+      }
+      &:nth-child(1) {
+        order: 1;
+      }
+      &:nth-child(2) {
+        order: 2;
+      }
+      &:nth-child(3) {
+        order: 3;
+      }
+      &:nth-child(4) {
+        order: 4;
+      }
+      &:nth-child(5) {
+        order: 5;
+      }
+      &:nth-child(6) {
+        order: 6;
+      }
+    }
+  }
+
+  section.row.section-brand {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-product__tab .section-product__tab--link {
+    font-size: 1.5rem;
+  }
+
+  .section-aboutus h1 {
+    font-size: 2.5rem;
+  }
+  .slideshow-container .mySlides p {
+    font-size: 1.2rem;
+  }
+  .footer-bottom__columns h2 {
+    font-size: 1.2rem;
+  }
+
+  .tabcontent .tabcontent-card h3,
+  .tabcontent .tabcontent-card h1 {
+    margin: 0 10px;
+  }
+  .tabcontent-card .tabcontent-card__action .tabcontent-card__action--icon i {
+    font-size: 10px;
+  }
+  .tabcontent-card .tabcontent-card__action .tabcontent-card__action--icon {
+    padding: 5px
+  }
+  .tabcontent-card .tabcontent-card__action {
+    top: 5px; 
+    right: 5px;
+  }
+}

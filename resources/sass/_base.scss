@@ -1,0 +1,113 @@
+:root {
+  --color-primary: #dd2f31;
+  --color-light-1: #fff;
+
+  --color-grey-dark-1: #000;
+  --color-grey-dark-2: #555;
+  --color-grey-dark-3: #777;
+  --shadow-dark: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --line: 1px solid var(--color-grey-light-2);
+}
+
+$bp-largest: 75rem; //1200px
+$bp-larg: 68.75rem; //1100px
+$bp-medium: 56.25rem; //900px
+$bp-small: 37.5rem; //600px
+$bp-smallest: 31.25rem; //500px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* reset -> 10px */
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.6;
+  color: #555;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  background-color: #fff;
+  overflow-x: hidden;
+  max-width: 1920px;
+}
+
+.row {
+  max-width: 117rem;
+  margin: 0 auto;
+}
+
+/* ------------------------------------------------- */
+/* HEADINGS  */
+/* --------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+  color: #000;
+}
+
+/* ------------------------------------------------- */
+/*  LINKS  */
+/* ------------------------------------------------- */
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+/* ------------------------------------------------- */
+/*  LIST  */
+/* ------------------------------------------------- */
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* ------------------------------------------------- */
+/*  BUTTON  */
+/* ------------------------------------------------- */
+
+.btn-ghost {
+  &:link,
+  &:visited {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 2rem 4rem;
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &:hover {
+    color: #dd2f31;
+    border-color: #dd2f31;
+  }
+}

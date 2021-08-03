@@ -1,0 +1,118 @@
+/* ----------------------------------------------- */
+/* SECTION PRODUCT */
+/* ----------------------------------------------- */
+
+.section-product {
+  margin-top: 80px;
+
+  &__tab {
+    border-bottom: 1px solid #ccc;
+
+    &--link {
+      border: none;
+      background: transparent;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      padding: 10px 20px;
+      font-weight: 700;
+      line-height: 24px;
+      font-family: inherit;
+      &.active {
+        border-bottom: 3px solid #dd2f31;
+        color: #dd2f31;
+      }
+    }
+  }
+
+  .tabcontent {
+    display: flex;
+    flex-wrap: wrap;
+
+    &-card {
+      position: relative;
+      width: calc(100% / 4);
+      padding:0 15px;
+      margin-top: 30px;
+
+      &:nth-child(4n+1) {
+        padding-left: 0;
+      }
+      &:nth-child(4n) {
+        padding-right: 0;
+      }
+
+
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+      }
+
+
+
+      &__img {
+        margin: 10px;
+      }
+
+      & h3,
+      & h1 {
+        color: #000;
+        font-size: 1.4rem;
+        margin: 0 15px;
+      }
+
+      & h1 {
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+
+      &__action {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: none;
+
+        &--icon {
+          border: 1px solid #ccc;
+          padding: 8px;
+          margin-bottom: 10px;
+          border-radius: 5px;
+          i {
+            font-size: 1.6rem;
+          }
+
+          &:hover {
+            background-color: #dd2f31;
+          }
+
+          &:hover i {
+            color: #fff;
+          }
+          &.active {
+            background: #dd2f31;
+
+            i {
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      &:hover .tabcontent-card__action {
+        display: block;
+        animation: moveToTop 1.5s;
+      }
+    }
+  }
+}
+
+@keyframes moveToTop {
+  0% {
+    transform: translateY(15rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
