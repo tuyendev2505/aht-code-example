@@ -4,12 +4,11 @@
   html {
     font-size: 50%;
   }
-
   .section-product,
   .row.footer-bottom,
   .row.footer-top,
-  .header-content,
   .section-brand,
+  .overview-mobile,
   .row.section-aboutus {
     padding-left: 15px;
     padding-right: 15px;
@@ -47,7 +46,7 @@
     display: none;
   }
   .sidebarIconToggle {
-    display: block
+    display: block;
   }
   #sidebarMenu {
     display: block;
@@ -136,10 +135,10 @@
     font-size: 10px;
   }
   .tabcontent-card .tabcontent-card__action .tabcontent-card__action--icon {
-    padding: 5px
+    padding: 5px;
   }
   .tabcontent-card .tabcontent-card__action {
-    top: 5px; 
+    top: 5px;
     right: 5px;
   }
 }

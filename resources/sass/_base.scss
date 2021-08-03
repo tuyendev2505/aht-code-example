@@ -26,6 +26,7 @@ $bp-smallest: 31.25rem; //500px
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* reset -> 10px */
+  overflow-x: hidden;
 }
 
 body {
@@ -98,7 +99,7 @@ img {
     color: #fff;
     padding: 13px 38px;
     display: inline-block;
-    margin-top: 43px;
+    margin-top: 55px;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 2px;

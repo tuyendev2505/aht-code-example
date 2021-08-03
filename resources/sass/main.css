@@ -46,6 +46,7 @@ html {
           box-sizing: border-box;
   font-size: 62.5%;
   /* reset -> 10px */
+  overflow-x: hidden;
 }
 
 body {
@@ -112,7 +113,7 @@ img {
   color: #fff;
   padding: 13px 38px;
   display: inline-block;
-  margin-top: 43px;
+  margin-top: 55px;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -149,7 +150,7 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2.3rem 0;
+  padding: 2.3rem 15px;
   /* HEADER TOP LOGO */
   /* HEADER TOP MAIN */
   /* HEADER TOP RIGHT */
@@ -242,6 +243,11 @@ header nav {
   width: 50%;
 }
 
+.header-content__left {
+  margin-top: 2px;
+  margin-left: 15px;
+}
+
 .header-content h1,
 .header-content h3 {
   color: #fff;
@@ -254,7 +260,7 @@ header nav {
   font-weight: 400;
   font-size: 1.4rem;
   padding-top: 45px;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 .header-content h1 {
@@ -988,8 +994,8 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   .section-product,
   .row.footer-bottom,
   .row.footer-top,
-  .header-content,
   .section-brand,
+  .overview-mobile,
   .row.section-aboutus {
     padding-left: 15px;
     padding-right: 15px;
