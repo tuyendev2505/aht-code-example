@@ -137,22 +137,22 @@
   }
 }
 
-#about-us .slick-dots li button:before {
+.about-us .slick-dots li button:before {
   font-size: 15px
 }
 
-#about-us .slick-dots li:hover button:before {
+.about-us .slick-dots li:hover button:before {
   color: #dd2f31
 }
 
-#about-us .slick-dots li.slick-active button:before {
+.about-us .slick-dots li.slick-active button:before {
   color: #dd2f31
 }
 
-#about-us .slick-dots {
+.about-us .slick-dots {
   bottom: -30px;
 }
-#about-us .slick-dots li {
+.about-us .slick-dots li {
   margin: 0;
 }
 
