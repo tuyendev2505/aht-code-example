@@ -23,7 +23,7 @@
       text-transform: uppercase;
       color: #000;
       text-align: center;
-      margin: 30px 0 10px;
+      margin: 25px 0 0;
     }
     & .slideshow-container .mySlides p:first-child {
       text-transform: uppercase;
@@ -32,7 +32,7 @@
     & .slide-person {
       width: 80px;
       height: 80px;
-      margin: 45px auto 30px;
+      margin: 53px auto 30px;
     }
     & img {
       border-radius: 50%;
@@ -148,3 +148,11 @@
 #about-us .slick-dots li.slick-active button:before {
   color: #dd2f31
 }
+
+#about-us .slick-dots {
+  bottom: -30px;
+}
+#about-us .slick-dots li {
+  margin: 0;
+}
+

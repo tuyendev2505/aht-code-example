@@ -50,14 +50,14 @@
 
 
       &__img {
-        margin: 10px;
+        height: 267px;
       }
 
       & h3,
       & h1 {
         color: #000;
         font-size: 1.4rem;
-        margin: 0 15px;
+        margin: 0 30px;
       }
 
       & h1 {
@@ -75,7 +75,8 @@
           border: 1px solid #ccc;
           padding: 8px;
           margin-bottom: 10px;
-          border-radius: 5px;
+          border-top-left-radius: 5px;
+          border-bottom-right-radius: 5px;
           i {
             font-size: 1.6rem;
           }
