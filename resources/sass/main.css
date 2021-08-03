@@ -56,8 +56,6 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   background-color: #fff;
-  overflow-x: hidden;
-  max-width: 1920px;
 }
 
 .row {
@@ -241,7 +239,7 @@ header nav {
 }
 
 .header-content__left, .header-content__right {
-  width: 55%;
+  width: 50%;
 }
 
 .header-content h1,
