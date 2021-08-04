@@ -98,12 +98,14 @@
   -o-transform: translate(-50%, -50%);
   &__left,
   &__right {
-    width: 50%;
+    width: 47%;
   }
 
   &__left {
-    margin-top: 2px;
     // padding: 0 15px;
+    height: 315px;
+    box-sizing: border-box;
+    margin-left: -1px;
   }
 
   & h1,
@@ -111,23 +113,23 @@
     color: #fff;
     font-family: "Poppins";
     font-weight: 700;
+    line-height: 1;
   }
 
   & p {
     color: #fff;
     font-weight: 400;
     font-size: 14px;
-    padding-top: 45px;
-    line-height: 23px;
+    margin-bottom: 60px;
   }
 
   & h1 {
     font-size: 6rem;
-    line-height: 5rem;
+    margin-top: -15px;
+    margin-bottom: 17px;
   }
   & h3 {
     font-size: 4rem;
-    line-height: 1.4rem;
-    margin-top: 30px;
+    margin-bottom: 28px;
   }
 }

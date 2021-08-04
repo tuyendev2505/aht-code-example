@@ -16,6 +16,7 @@
       text-align: center;
       margin-bottom: 20px;
       font-weight: 400;
+      line-height: 30px;
     }
     & h2 {
       font-size: 20px;
@@ -32,7 +33,7 @@
     & .slide-person {
       width: 80px;
       height: 80px;
-      margin: 53px auto 30px;
+      margin: 53px auto 27px;
     }
     & img {
       border-radius: 50%;
@@ -81,20 +82,20 @@
 }
 
 /* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #ccc;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+// .dot {
+//   cursor: pointer;
+//   height: 10px;
+//   width: 10px;
+//   margin: 0 2px;
+//   background-color: #ccc;
+//   border-radius: 50%;
+//   display: inline-block;
+//   transition: background-color 0.6s ease;
+// }
 
-.dot:hover {
-  background-color: #dd2f31;
-}
+// .dot:hover {
+//   background-color: #dd2f31;
+// }
 
 /* Fading animation */
 .fade {
@@ -125,7 +126,7 @@
 /* SECTION ABOUT US*/
 
 .section-aboutus {
-  margin-top: 120px;
+  margin-top: 80px;
 
   & h2 {
     color: #000;
@@ -138,7 +139,7 @@
 }
 
 .about-us .slick-dots li button:before {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .about-us .slick-dots li:hover button:before {
