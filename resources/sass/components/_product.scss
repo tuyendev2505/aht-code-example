@@ -33,7 +33,6 @@
       width: calc(100% / 4);
       padding:15px;
       margin-top: 30px;
-      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       // &:nth-child(4n+1) {
       //   padding-left: 0;
       // }
@@ -43,7 +42,7 @@
 
 
       &:hover {
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         cursor: pointer;
       }
 

@@ -23,9 +23,18 @@
 /* ----------------------------------------------- */
 /* BASIC SETUP */
 /* ----------------------------------------------- */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
 
-@import './base';
-@import './layout';
-@import './component';
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@import "./base";
+@import "./layout";
+@import "./component";
 
-@import './responsive/responsive'
+@import "./responsive/responsive";
