@@ -1,19 +1,39 @@
 /* TABLET  */
 
-@media screen and (max-width: 56.25rem) {
+@media screen and (max-width: 1025px) {
+  .header-top #js--menu {
+    display: none;
+  }
+  .sidebarIconToggle {
+    display: block;
+  }
+  #sidebarMenu {
+    display: block;
+  }
+  #sidebarMenu {
+    display: none;
+  }
+  .header-top__logo {
+    margin-left: 4rem;
+    width: 165px;
+  }
   html {
     font-size: 50%;
   }
   .section-product,
   .row.footer-bottom,
   .row.footer-top,
+  .header-top,
   .section-brand,
   .overview-mobile,
+  .header-content__left,
   .row.section-aboutus {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
 
+@media screen and (max-width: 56.25rem) {
   .header-content .header-content__left {
     width: 100%;
     & h1 {
@@ -32,25 +52,11 @@
   .tabcontent .tabcontent-card {
     width: calc(100% / 2);
   }
-  #sidebarMenu {
-    display: none;
-  }
-  .header-top__logo {
-    margin-left: 4rem;
-  }
 
   .row.section-brand .section-brand__img {
     width: calc(100% / 2);
   }
-  .header-top #js--menu {
-    display: none;
-  }
-  .sidebarIconToggle {
-    display: block;
-  }
-  #sidebarMenu {
-    display: block;
-  }
+
   .row.footer-bottom,
   #tab1.tabcontent {
     grid-template-columns: repeat(2, 1fr);
@@ -80,10 +86,6 @@
       & h2 {
         margin: 2rem 0;
         font-size: 3rem;
-      }
-
-      & p {
-        font-size: 2rem;
       }
 
       &:nth-child(2n) {
@@ -117,23 +119,11 @@
     font-size: 1.5rem;
   }
 
-  .section-aboutus h1 {
-    font-size: 2.5rem;
-  }
-  .slideshow-container .mySlides p {
-    font-size: 1.2rem;
-  }
-  .footer-bottom__columns h2 {
-    font-size: 1.2rem;
-  }
-
   .tabcontent .tabcontent-card h3,
   .tabcontent .tabcontent-card h2 {
     margin: 0 10px;
   }
-  .tabcontent-card .tabcontent-card__action .tabcontent-card__action--icon i {
-    font-size: 10px;
-  }
+
   .tabcontent-card .tabcontent-card__action .tabcontent-card__action--icon {
     padding: 5px;
   }

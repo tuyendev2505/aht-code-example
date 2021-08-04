@@ -6,7 +6,7 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   display: flex;
-  padding: 2.3rem 15px;
+  padding: 2.3rem 0;
   &__main,
   &__right {
     display: flex;
@@ -48,8 +48,15 @@
     &--icon i {
       color: #fff;
       font-size: 1.6rem;
-      margin-right: 24px;
+      margin-right: 21px;
       cursor: pointer;
+
+      &:nth-child(2) {
+        margin-right: 18px;
+      }
+      &:nth-child(3) {
+        margin-right: -5px;
+      }
     }
 
     &--icon {
@@ -59,9 +66,9 @@
       &:hover i {
         color: #555;
       }
-      &:last-child,
-      &:last-child i {
-        margin-right: 0;
+      &:last-child {
+        margin-right: -24px;
+        margin-left: 17px;
       }
     }
     /* HEADER ICON MOBILE */
@@ -96,7 +103,7 @@
 
   &__left {
     margin-top: 2px;
-    margin-left: 15px;
+    // padding: 0 15px;
   }
 
   & h1,
@@ -109,7 +116,7 @@
   & p {
     color: #fff;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 14px;
     padding-top: 45px;
     line-height: 23px;
   }
