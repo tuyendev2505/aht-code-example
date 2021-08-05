@@ -139,7 +139,9 @@
 }
 
 .about-us .slick-dots li button:before {
-  font-size: 40px;
+  font-size: 10px;
+  // width: 10px;
+  // height: 10px;
 }
 
 .about-us .slick-dots li:hover button:before {
@@ -148,8 +150,7 @@
 
 .about-us .slick-dots li.slick-active button:before {
   color: #dd2f31;
-  width: 10px;
-  height: 10px;
+
 }
 
 .about-us .slick-dots {

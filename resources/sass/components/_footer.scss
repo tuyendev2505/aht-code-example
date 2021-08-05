@@ -67,12 +67,22 @@ footer {
         font-size: 18px;
         color: #fff;
         font-weight: 700;
-        margin-bottom: 3rem;
+        margin-bottom: 25px;
         text-transform: uppercase;
       }
 
       & .footer-bottom__column--link {
         margin-bottom: 15px;
+
+        &:nth-child(2) {
+          margin-bottom: 19px;
+        }
+        &:nth-child(3) {
+          margin-bottom: 18px;
+        }
+        &:nth-child(4) {
+          margin-bottom: 17px;
+        }
 
         &:hover a {
           color: #ccc;
